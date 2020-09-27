@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ARTSENAL</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet"   href="css/artistas.css">
+
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light menu-fijo">
+        <div class="container">
+        <a class="navbar-brand" href="#carousel-talentos"><img src="image/Logo-ARTSENAL.png" alt="Logo de la pagina"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">INICIO</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="nosotros.html">NOSOTROS</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown toggle active" data-toggle="dropdown" data-target="desplegable" href="index.html">ARTISTAS</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <a class="dropdown-item" href="#carousel-musica">Música</a>
+                      <a class="dropdown-item" href="#carousel-foto">Fotografía</a>
+                      <a class="dropdown-item" href="#carousel-baile">Baile</a>
+                      <a class="dropdown-item" href="#seccion-slick1">Pintura</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contacto.html">CONTACTO</a>
+                </li>
+              </ul>
+        </div>
+      </nav>
+
+<div id="carousel-talentos" class="carousel slide carousel-fade" data-ride="carousel" data-pause="false" data-interval="3500">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-talentos" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-talentos" data-slide-to="1"></li>
+    <li data-target="#carousel-talentos" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="image/head-1.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>PRODUCCIÓN AUDIOVISUAL</h5>
+        <p>Cortometraje digital - Producción de campo </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/head-2.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5> RODAJE AUDIOVISUAL</h5>
+        <p> Casting de actores principales </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="image/head-3.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h5> RODAJE AUDIOVISUAL </h5>
+        <p> Casting de actores principales </p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carousel-talentos" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-talentos" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+</header>
+
+
+<!-- ARTISTAS -->
+<div class="talentos">
+  <div class="container">
+    <h2 data-aos="fade-down" data-aos-duration="1500">TALENTOS</h2>
+
+
+<!-- MÚSICA -->
+      <div class="row">
+        <div class="col-md-8">
+          <div id="carousel-musica" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <video src="video/maria bak 1.mp4" controls width="660" height="380"></video>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Maria Fernanda Clavijo - Cover <br> acústico Ukelele</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <video src="video/maria bak 2.mp4" controls width="660" height="380"></video>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Maria Fernanda Clavijo - Cover <br> Ukelele</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <iframe width="660" height="380" src="https://www.youtube-nocookie.com/embed/ATsNDy4mN9Q" frameborder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                  </iframe>
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Karla Daniela Garcia - Elfen Lied - Violin Trap Mix Beat By Castlewhite</h5>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carousel-musica" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-musica" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <h2>MÚSICA</h2>
+            <p>"La música existe para cuando nos fallan las palabras"
+            </p>
+        </div>
+      </div>
+
+  <hr class="featurette-divider">
+
+
+<!-- FOTOGRAFIA -->
+      <div class="row">
+        <div class="col-md-4">
+            <h2>FOTOGRAFÍA</h2>
+            <p>"Mira y piensa antes de abrir el obturador, el corazón y la mente son el verdadero lente de un fotografo"
+            </p>
+        </div>
+
+        <div class="col-md-8">
+          <div id="carousel-foto" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-foto" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-foto" data-slide-to="1"></li>
+                <li data-target="#carousel-foto" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="image/marlon/foto1.png" alt="">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Marlon Ramírez <br> El callejón angosto</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="image/marlon/foto2.png" alt="">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Marlon Ramírez <br> Mural mujer natural</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="image/marlon/foto3.png" alt="">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Marlon Ramírez <br> Banderas naciones del mundo</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="image/marlon/foto4.png" alt="">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Marlon Ramírez <br> Plaza del reloj CI</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="image/marlon/foto5.png" alt="">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Marlon Ramírez <br> Shooting afiche de terror</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="image/marlon/foto6.png" alt="">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Marlon Ramírez <br> Script digital cortometraje</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="image/marlon/foto7.png" alt="">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Marlon Ramírez</h5>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="image/marlon/foto8.png" alt="">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Marlon Ramírez</h5>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carousel-foto" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-foto" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+        </div>
+      </div>
+  
+
+  <hr class="featurette-divider">
+
+
+<!-- BAILE -->
+
+  <div class="row">
+    <div class="col-md-8">
+      <div id="carousel-baile" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <iframe width="660" height="380" src="https://www.youtube-nocookie.com/embed/XHhKtvI_Dzs?start=9" frameborder="0" 
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Leonela Peña - Bailarina  <br> Danza - Gloria pa' las tres</h5>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <iframe width="660" height="380" src="https://www.youtube.com/embed/WpNlTffsfG4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Leonela Peña - Bailarina </h5>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carousel-baile" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carousel-baile" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <h2>BAILE</h2>
+        <p>"Bailar es soñar con los pies, si bailas con tu corazón tu cuerpo lo seguirá"
+        </p>
+    </div>
+  </div>
+
+  <hr class="featurette-divider">
+
+  </div>
+</div>
+
+
+<!-- PINTURA -->
+  <div id="seccion-slick1">
+    <div class="container">
+        <div class="cuadros">
+              <div data-aos="fade-up" data-aos-duration="1000" class="cuadrado-item">
+                <h2>P</h2>
+              </div>
+              <div data-aos="fade-up" data-aos-duration="1000" class="cuadrado-item">
+                <h2>I</h2>
+              </div>
+              <div data-aos="zoom-in" data-aos-duration="1000" class="cuadrado-item">
+                <h2>N</h2>
+              </div>
+              <div data-aos="fade-down" data-aos-duration="1000" class="cuadrado-item">
+                <h2>T</h2>
+              </div>
+              <div data-aos="fade-down" data-aos-duration="1000" class="cuadrado-item">
+                <h2>U</h2>
+              </div>
+              <div data-aos="fade-down" data-aos-duration="1000" class="cuadrado-item">
+                <h2>R</h2>
+              </div>
+              <div data-aos="fade-down" data-aos-duration="1000" class="cuadrado-item">
+                <h2>A</h2>
+              </div>
+        </div>
+
+
+      <ul class="nav nav-tabs nav-justified">
+        <li class="nav-item">
+          <a href="#majo" class="nav-link active" data-toggle="tab">Maria J. Carvajal</a>
+        </li>
+ 
+        <li class="nav-item">
+          <a href="#karla" class="nav-link" data-toggle="tab">Karla D. Garcia</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#mariam" class="nav-link" data-toggle="tab">Mariam N. Rodriguez</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#mariabak" class="nav-link" data-toggle="tab">Maria F. Clavijo</a>
+        </li>
+
+      </ul>
+
+
+      <div class="tab-content container">
+        <div class="tab-pane show active" id="majo">
+          <div class="carousel-majo">
+            <div class="item-progra">
+              <img src="image/majo/paint1.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/majo/paint2.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/majo/paint3.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/majo/paint4.png" alt="">
+            </div>
+          </div>
+        </div>
+      
+
+      
+        <div class="tab-pane" id="karla">
+          <div class="carousel-majo">
+            <div class="item-progra">
+              <img src="image/karla/paint1.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/karla/paint2.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/karla/paint3.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/karla/paint4.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/karla/paint5.png" alt="">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="tab-pane" id="mariam">
+          <div class="carousel-majo">
+            <div class="item-progra">
+              <img src="image/mariam/paint1.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/mariam/paint2.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/mariam/paint3.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/mariam/paint4.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/mariam/paint5.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/mariam/paint6.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/mariam/paint7.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/mariam/paint8.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/mariam/paint9.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/mariam/paint10.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/mariam/paint11.png" alt="">
+            </div>
+          </div>
+        </div>
+
+
+        <div class="tab-pane" id="mariabak">
+          <div class="carousel-majo">
+            <div class="item-progra">
+              <img src="image/mariabak/paint1.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/mariabak/paint2.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/mariabak/paint3.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/mariabak/paint4.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/mariabak/paint5.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/mariabak/paint6.png" alt="">
+            </div>
+            <div class="item-progra">
+              <img src="image/mariabak/paint7.png" alt="">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+
+<footer class="footer mt-auto py-3">
+  <div class="container">
+    <span class="text-muted">Todos los derechos reservados. Copyright &copy; 2020. ARTSENAL. Producción Audiovisual.</span>
+  </div>
+</footer>
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/smooth-scroll.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
